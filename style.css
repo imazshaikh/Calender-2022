@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    
+}
+
+.head{
+    text-align: center;
+    height: 150px;
+    width: 100%;
+    background-color: #141313e0;
+}
+
+.head h1{
+    padding: 20px;
+    height: 50px;
+    color: white;
+    font-size: 25px;
+}
+
+.month_name{
+    width: 100%;
+
+}
+
+.month_name a{
+    font-weight: 900;
+    line-height: 80px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
+/* Main-calender */
+
+.flex{
+    background-color: #141313e0;
+    display: flex;
+    justify-content: center;
+}
+
+.center_container{
+    width: 50%;
+    background-color: #141313e0;
+}
+
+.calender{
+    /* display: flex;
+    flex-direction: row; */
+    height: 83vh;
+    overflow:hidden;
+}
+
+.calender h1{
+    text-align: center;
+}
+
+.month{
+    line-height: 60px;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    width: 50%;
+    /* height: 100px; */
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+
+.dates{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background-color: linear-gradient;
+}
+.dates_container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.dates_section{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    /* background-image:linear-gradient(to bottom right, #cfdbe8, #2e67a9 ,#002f64); */
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(213,70,252,1) 100%);
+}
+.dates span{
+    font-weight: 700;
+    color: white;
+    border: 1px solid grey;
+    padding: 5px 5px;
+    text-align: left;
+    height: 100px;
+    /* background-color: chartreuse; */
+}
+
+.holiday{
+    height: 100px;
+    background-color: #bd3030;
+    cursor: pointer;
+}
+
+
+
+        /* Image Section */
+
+
+        .holiday{
+            font-size: 25px;
+            text-decoration: none;
+            color: white;
+    
+        }
+
+
+
+.holiday_desc{
+    height: 83vh;
+    overflow: hidden;
+    text-align: center;
+    width: 40%;
+    background-color: white;
+}
+
+.holiday_img{
+    padding: 20px 0;
+}
+
+
+
+
+
+
+
+
+
